@@ -15,7 +15,6 @@
 /packages/*/node_modules
 /packages/*/.local
 /packages/*/yarn-error.log
-/packages/*/yarn-error.log
 /packages/*/yarn.lock
 /packages/*/package-lock.json
 /packages/*/.local
