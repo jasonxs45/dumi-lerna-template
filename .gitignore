@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/package-lock.json
+
+# father
+/coverage
+/packages/*/dist
+/packages/*/lib
+/packages/*/es
+/packages/*/node_modules
+/packages/*/.local
+/packages/*/yarn-error.log
+/packages/*/yarn-error.log
+/packages/*/yarn.lock
+/packages/*/package-lock.json
+/packages/*/.local
+/packages/*/src/fixtures/**/node_modules/.cache
+/packages/umi-plugin-father-doc/src/fixtures/build/*/dist
+/packages/father-doc/src/fixtures/e2e/normal/.doc
+/packages/father-doc/src/fixtures/e2e/normal/.docz
+/.changelog
+
+# lerna
+lerna-debug.log
+
+# production
+/es
+/docs-dist
+
+# misc
+.DS_Store
+/coverage
+
+# umi
+.umi
+.umi-production
+.umi-test
+.env.local
+
+# ide
+/.vscode
+/.idea
+
+# docker
+docker_build_log.txt
+xscomponents.v**
